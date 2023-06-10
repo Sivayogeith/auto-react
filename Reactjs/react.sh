@@ -26,7 +26,7 @@ html , body ,#root {
 }
 .flcol {
     display: flex;
-    flex-direction: col;
+    flex-direction: column;
 }
 
 .jcen {
@@ -71,7 +71,12 @@ const App = () => {
 export default App;
 EOF
 )
-echo "$v" > App.jsx
+
+if [ -f "App.jsx" ]; then
+    echo "$v" > App.jsx
+else
+    echo "$v" > App.tsx
+fi
 
 printf "\nRunning Local Server...\n\n"
 
