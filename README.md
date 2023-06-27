@@ -29,10 +29,9 @@ Here we automated web development setup process and fasten up the setup process 
 # For Windows
 (Using WSL or Vscode is recommended)
 
-1.  Clone the repo
-```bash
-git clone https://github.com/Arghyahub/SCRIPTS.git
-```
+1.  Download file or Clone the Repo
+
+![image](https://github.com/Arghyahub/SCRIPTS/assets/84245432/56891d98-fec5-47da-af42-7186323feeb1)
 
 1. Create a project folder and open the folder in vscode
 
